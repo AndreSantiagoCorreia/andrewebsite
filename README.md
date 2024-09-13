@@ -1,3 +1,8 @@
+# André's Website
+
+This website is to practice my skills creating a project from scratch and to showcase my skills to the world! As well as adding cool features to it to make it unique and innovative!
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
