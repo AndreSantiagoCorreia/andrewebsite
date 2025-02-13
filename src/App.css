@@ -1,23 +1,19 @@
-/* src/App.css */
+/* App.css */
 .App {
-  font-family: sans-serif;
-  text-align: center;
-  padding-top: 70px; /* Space for the fixed navbar */
-  padding-bottom: 80px; /* Space for the footer */
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+}
+
+.main-content {
+  flex-grow: 1; /* Makes it grow and fill the remaining space */
+  padding: 2rem;
+  overflow-y: auto; /* Ensures the content can scroll if it overflows */
+  display: flex;
+  justify-content: center; /* Centers the Profile component horizontally */
+  align-items: center; /* Centers the Profile component vertically */
 }
 
 .App-header {
-  background-color: #f3f3f3;
-  padding: 20px;
-}
-
-section {
-  padding: 40px;
-  margin: 40px 0;
-  background-color: #fafafa;
-  border-radius: 8px;
-}
-
-h1, h2 {
-  color: #333;
+  margin-bottom: 2rem;
 }
