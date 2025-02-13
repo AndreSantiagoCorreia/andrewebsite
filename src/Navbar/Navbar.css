@@ -23,6 +23,11 @@
     font-weight: bold;
     color: white;
   }
+
+  .logo a {
+    color: white;
+    text-decoration: none;
+  }
   
   .nav-links {
     list-style: none;
