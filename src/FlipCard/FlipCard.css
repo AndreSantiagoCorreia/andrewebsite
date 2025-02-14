@@ -1,0 +1,41 @@
+.flip-card {
+    width: 15rem; /* Fixed width for square buttons */
+    height: 15rem; /* Fixed height for square buttons */
+    perspective: 100rem; /* Adds depth for 3D effect */
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d; /* Enables 3D space */
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg); /* Flip animation on hover */
+  }
+  
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Hides the back face during flip */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem; /* Rounded corners */
+  }
+  
+  .flip-card-front {
+    background-color: #007bff; /* Blue background */
+    color: white;
+  }
+  
+  .flip-card-back {
+    background-color: #0056b3; /* Darker blue background */
+    color: white;
+    transform: rotateY(180deg); /* Initially flipped */
+  }

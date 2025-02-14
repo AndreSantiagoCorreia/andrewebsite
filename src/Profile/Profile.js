@@ -1,11 +1,11 @@
 import React from 'react';
-import './Profile.css'; // Import CSS for the Profile component
+import './Profile.css';
 
 const Profile = () => {
   return (
     <div className="profile-container">
       <img 
-        src="/assets/pikachu.png" // Replace with your profile image URL or path
+        src="/assets/pikachu.png"
         alt="Profile"
         className="profile-image"
       />

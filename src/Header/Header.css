@@ -1,0 +1,8 @@
+.main-header {
+    font-size: 2.5rem; /* Larger font size */
+    color: #007bff; /* Blue color */
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 0.2rem; /* Spacing between letters */
+    font-weight: bold; /* Bold text */
+    text-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
